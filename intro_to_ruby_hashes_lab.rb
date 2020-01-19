@@ -43,6 +43,7 @@ def update_counting_hash(hash, key)
    return hash[key] + 1
    # You should assign new value for the existing key first before returning its value 
  end
+ 1 
 
  # Finally, return your expected output here, the return keyword is not needed
 
