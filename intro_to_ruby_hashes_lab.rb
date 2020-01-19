@@ -36,16 +36,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
- if hash[key] == {} 
-   # Here you will check if the hash does not have the key instead of doing this
-   return hash[key] = 1 
- else
-   return hash[key] + 1
-   # You should assign new value for the existing key first before returning its value 
- end
- 1 
-
- # Finally, return your expected output here, the return keyword is not needed
+  hash[hash]
 
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
